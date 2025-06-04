@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
-main {
+body {
   margin: 0, auto;
+}
+
+header {
+  padding-top: 10px;
+  padding-left: 20px;
+  background-color: white;
+}
+
+
+header .logo {
+  width: 200px;
+}
+
+main {
+  padding-top: 40px;
+  padding-left: 500px;
 }
