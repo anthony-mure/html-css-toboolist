@@ -7,8 +7,25 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f8fa;
 
 }
+
+
+
+.container {
+  max-width: 950px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 50px auto;
+
+}
+
+.btn {
+  font-size: .8rem;
+
+}
+
 
 header {
   padding-top: 10px;
@@ -16,14 +33,15 @@ header {
   background-color: white;
 }
 
-.title {
-  font-size: 20px;
-  font-weight: lighter;
+header img {
+  vertical-align: middle;
 }
 
 
 header .logo {
-  width: 200px;
+  font-size: 38px;
+  font-weight: bold;
+  ;
 }
 
 main {
